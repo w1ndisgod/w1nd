@@ -1,0 +1,119 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    height: 84px;
+    padding-top: 20px;
+    border-bottom: 2px solid #b31610;
+}
+.registerarea {
+    height: 522px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+.registerarea_hd {
+    height: 41px;
+    line-height: 40px;
+    border-bottom: 1px solid #dddddd;
+    background: #ececec;
+}
+.registerarea_hd h2 {
+    float: left;
+    color: #333;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.registerarea_hd h4 {
+    float: right;
+    font-size: 14px;
+    color: #333;
+    padding-right: 10px;
+}
+.registerarea_hd a {
+    color: #c81623;
+}
+.registerarea_bd .reg_form {
+    width: 600px;
+    margin: 40px auto;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.reg_form ul li .inp {
+    width: 240px;
+    height: 36px;
+    text-indent: 1em;
+    border: 1px solid #999999;
+}
+.reg_form ul li .error {
+    color: #df3033;
+}
+.reg_form ul li .error_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/矩形8.png) no-repeat;
+    margin-left: 10px;
+}
+.safe {
+    color: #b2b2b2;
+    padding-left: 175px;
+}
+.safe em {
+    color: #fff;
+    padding: 0 11px;
+    margin-right: 1px;
+}
+.ruo {
+    background: #e00900;
+}
+.zhong {
+    background: #39ba36;
+}
+.qiang {
+    background: #f99200;
+}
+.agree {
+    padding-left: 93px;
+    color: #4d4d4d;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.finish {
+    padding: 30px 100px;
+}
+.finish input {
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    font-size: 14px;
+    background: #ca111a;
+}
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 113px;
+}
+.mod_copyright ul li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.copyright {
+    float: left;
+    padding-left: 123px;
+    line-height: 20px;
+}

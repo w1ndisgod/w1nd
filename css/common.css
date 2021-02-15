@@ -1,0 +1,273 @@
+/* 版心 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?4tsipi');
+    src:  url('../fonts/icomoon.eot?4tsipi#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?4tsipi') format('truetype'),
+      url('../fonts/icomoon.woff?4tsipi') format('woff'),
+      url('../fonts/icomoon.svg?4tsipi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+ .fr {
+    float: right;
+}
+.style_red {
+    color: #c81623;
+}
+ 
+/* 快捷导航模块 */
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+}
+
+
+.shortcut  ul li {
+    float: left;
+}
+.shortcut .fr ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background: #666;
+    margin: 9px 14px 0 16px;
+}
+ .arrow-icon::after {
+    content: '\ec71';
+    font-family: 'icomoon';
+    margin-left: 8px;
+}
+/* header头部制作 */
+.header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+    position: absolute;
+    top: 26px;
+    width: 171px;
+    height: 61px;
+}
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url(../images/logo.png);
+}
+.search {
+    position: absolute;
+    left: 347px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    text-indent: 10px;
+    font-size: 14px;
+    color: #666;
+}
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background: #b1191a;
+    color: #fff;
+    font-size: 16px;
+}
+.hotwords {
+    position: absolute;
+    top: 69px;
+    left: 347px;
+    text-indent: 10px;
+}
+.hotwords a {
+    margin-right: 20px;
+}
+.shopcar {
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    right: 63px;
+    top: 25px;
+}
+.shopcar::before {
+    content: "\ed18";
+    font-family: 'icomoon';
+    margin-right: 5px;
+    color: #db5c5c;
+}
+.shopcar::after {
+    content: '\ec73';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+.shopcar .count {
+    position: absolute;
+    top: -5px;
+    left: 104px;
+    height: 14px;
+    line-height: 14px;
+    color: #fefefe;
+    border-radius: 7px 7px 7px 0;
+    padding: 0 5px;
+    background: #e60012;
+}
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown {
+    float: left;
+    width: 209px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.dropdown .dd {
+    width: 100%;
+    height: 465px;
+    background: #c81623;
+    margin-top: 2px;
+}
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding-left: 10px;
+    color: #fff;
+}
+.dropdown .dd ul li:hover {
+    background: #f7f7f7;
+}
+.dropdown .dd ul li::after {
+    position: absolute;
+    content: '\ec73';
+    font-family: 'icomoon';
+    right: 8px;
+    top: 1px;
+}
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+.dropdown .dd ul li:hover a{
+    color: #c81623;
+}
+.navitems {
+    float: left;
+    margin-left: 15px;
+    height: 45px;
+}
+.navitems ul li {
+    float: left;
+    height: 100%;
+    
+}
+.navitems ul li a {
+    display: block;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    color: #333333;
+    padding: 0 25px;
+}
+footer {
+    height: 417px;
+    background: #f5f5f5;
+    padding-top: 30px;
+}
+.mod_service {
+    height: 81px;
+    border-bottom: 1px solid #ededed;
+}
+.mod_service ul li {
+    float: left;
+    width: 240px;
+    height: 51px;
+    padding-left: 34px;
+}
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 7px;
+}
+.mod_service ul li .service_txt h4 {
+    font-size: 14px;
+    color: #333333;
+    line-height: 23px;
+}
+.mod_service ul li:nth-child(2) h5 {
+    background: url(../images/icons.png) no-repeat -255px -53px;
+}
+.mod_service ul li:nth-child(3) h5 {
+    background: url(../images/icons.png) no-repeat -256px -106px;
+}
+.mod_service ul li:nth-child(4) h5 {
+    background: url(../images/icons.png) no-repeat -257px -156px;
+}
+.mod_service ul li:nth-child(5) h5 {
+    background: url(../images/icons.png) no-repeat -256px -208px;
+}
+.mod_help {
+    height: 188px;
+    border-bottom: 1px solid #ededed;
+    padding-top: 20px;
+    padding-left: 49px;
+}
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+.mod_help dl:last-child {
+    width: 100px ;
+    text-align: center;
+}
+.mod_help dt {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+}
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 113px;
+}
+.mod_copyright ul li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.copyright {
+    float: left;
+    padding-left: 123px;
+    line-height: 20px;
+}
